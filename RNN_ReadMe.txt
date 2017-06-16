@@ -5,7 +5,7 @@
 5. Run PrePreprocess.sh file to create the folder structure.
 6. Copy all the files form the extracted corpus folder into Corpus folder.
 7. Copy the file form ReplaceFile folder and replace it with the file in "./standoff/test/train/" folder (So as to correct an annotation mistake)
-8. Copy all files from the extracted gdep parser into gdep-beta2 folder.
+8. Copy all files from the extracted gdep parser into gdep-beta2 folder and also run make command.
 9. Run Preprocess.sh file to perform preprocessing.
 10. Run Trigger.py file to train,test and store best predicted triggers of trigger identification model.
 11. Run Process4.sh file to create parsing information for the model
